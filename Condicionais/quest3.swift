@@ -4,4 +4,10 @@ let valueOne = 10
 let valueTwo = 24
 let valueThree = 2
 
-let arrayMerged = []
+var arrayOne: [Int] = []
+
+arrayOne.append(contentsOf: [valueOne, valueTwo, valueThree])
+
+arrayOne.sort()
+
+print(arrayOne)
